@@ -2,12 +2,8 @@ package com.learn.rest.controllers;
 
 import java.net.InetAddress;
 import java.net.UnknownHostException;
-import java.util.ArrayList;
-import java.util.Collection;
-import java.util.Collections;
 import java.util.List;
 
-import org.hibernate.mapping.Map;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.DeleteMapping;
@@ -19,7 +15,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 import com.learn.rest.dto.ContactDto;
-import com.learn.rest.entiy.Contact;
+import com.learn.rest.entity.Contact;
 import com.learn.rest.exception.ContactNotFoundException;
 import com.learn.rest.mapper.ContactMapper;
 import com.learn.rest.service.ContactService;

@@ -1,11 +1,12 @@
 package com.learn.rest.repository;
 
 import org.springframework.stereotype.Repository;
+
+import com.learn.rest.entity.Contact;
+
 import org.springframework.data.jpa.repository.JpaRepository;
 
 import java.util.List;
-
-import com.learn.rest.entiy.Contact;
 
 
 

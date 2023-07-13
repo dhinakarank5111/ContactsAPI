@@ -2,7 +2,7 @@ package com.learn.rest.service;
 
 import java.util.List;
 
-import com.learn.rest.entiy.Contact;
+import com.learn.rest.entity.Contact;
 
 public interface ContactService {
 
