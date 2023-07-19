@@ -1,0 +1,22 @@
+// jenkins pipeline script
+// pipeline with stages compile, test, bulid and echo message in the stages
+pipeline {
+    agent any
+    stages {
+        stage('Compile Stage') {
+            steps {
+                echo 'Compiling the java code'
+            }
+        }
+        stage('Test Stage') {
+            steps {
+                echo 'Testing the java code'
+            }
+        }
+        stage('Build Stage') {
+            steps {
+                echo 'Building the java code'
+            }
+        }
+    }
+}
