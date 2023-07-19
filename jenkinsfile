@@ -56,7 +56,7 @@ pipeline {
     }
     post{
         always{
-            echo "This is always executed"
+            echo "Always : This is always executed"
         }
         success{
             echo "This is executed only if the build succeeds"
